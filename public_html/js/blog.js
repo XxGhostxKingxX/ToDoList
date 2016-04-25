@@ -1,11 +1,11 @@
 $(function () {
-    var APPLICATION_ID = "3C244946-95D6-B314-FF4C-04BA159A8800",
-        SECRET_KEY = "36FFFEED-05E1-66BC-FFA7-B16C1B97C000",
+    var APPLICATION_ID = "75C09C4D-40BA-C49A-FF5F-A46BB185AB00",
+        SECRET_KEY = "13A9C922-579B-3E92-FFA1-0F8BAE2D1200",
         VERSION = "v1";
     
    Backendless.initApp(APPLICATION_ID, SECRET_KEY, VERSION);
    
-   var postsCollection = Backendless.Persistence.of(Posts).find();
+    var postsCollection = Backendless.Persistence.of(Posts).find();
    
    console.log(postsCollection);
    

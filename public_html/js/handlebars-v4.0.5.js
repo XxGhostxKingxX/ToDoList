@@ -3231,7 +3231,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (options === undefined) options = {};
 
 	  if (input == null || typeof input !== 'string' && input.type !== 'Program') {
-	    throw new _exception2['default']('You must pass a string or Handlebars AST to Handlebars.compile. You passed ' + input);
+	    //throw new _exception2['default']('You must pass a string or Handlebars AST to Handlebars.compile. You passed ' + input);
 	  }
 
 	  if (!('data' in options)) {

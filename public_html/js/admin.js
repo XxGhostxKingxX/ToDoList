@@ -86,7 +86,7 @@ function userLoggedOut() {
 }
 
 function gotError(error) {
-    Materialize.toast('Incorrect Password', 4000);
+    Materialize.toast('Invalid E-Mail/Password', 4000);
     console.log("Error message - " + error.message);
     console.log("Error code - " + error.code);
 }
